@@ -1,7 +1,11 @@
-.book{
-    background: coral;
-    border: 1px solid blue;
-    box-shadow: 10px 10px 20px 5px orange;
-    width: 50%;
-    margin: 0 auto;
+.img{
+    margin-bottom: 10px;
 }
+
+#story{
+    -webkit-text-stroke: 2px black;
+      text-shadow: 2px 2px 0 red, -2px -2px 0 red;
+      display: inline-block;
+      display: flex;
+      justify-content: center;
+} 

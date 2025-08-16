@@ -3,13 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Book Store</title>
+    <title>Document</title>
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <div class="book">
-        <h3>My first Book-Store</h3>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo nihil tempore voluptatem, magnam molestiae aut atque sunt placeat aspernatur consectetur? Nobis minima nam atque nostrum quae voluptates sequi vero tempora.</p>
+    <br>
+    <hr>
+    <div class="img">
+        <form action="">
+            <label for="image">Search your image here:
+                <input type="search" name="image" id="image">
+                <input type="button" value="Search">
+            </label>
+        </form>
+    </div>
+    <img src="images/zenitsu.webp" height="200px" width="300px" alt="Zenitsu OP mode loading....."> <br>
+    <a href="https://kimetsu-no-yaiba.fandom.com/wiki/Zenitsu_Agatsuma" target="_blank">For more click here</a>
+    <hr>
+    <h2>Feedback Form:</h2>
+    <div class="feedback">
+        <form action="">
+            <label for="name">Name: <br>
+                <input type="text" name="name" id="name">
+            </label><br>
+
+            <label for="date">Date: <br>
+                <input type="datetime" placeholder="mm/dd/yyy" name="" id="">
+            </label><br>
+            
+            <label for="comments">Comment: <br>
+                <textarea name="comments" id="comments" cols="80" rows="5"></textarea>
+            </label>
+            <br><br>
+            <input type="submit" value="Submit">
+            </form>
+        </form>
     </div>
 </body>
 </html>
